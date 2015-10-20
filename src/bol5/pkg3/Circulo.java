@@ -19,12 +19,12 @@ public class Circulo {
     public Circulo (){    
     }
     public Circulo (double r){
-        r = radio;
+        radio= r;
     }
     
     //metodos
-    public void radio (double r){
-        r = radio;
+    public void setRadio (double r){
+         radio= r;
     }
     public double getArea (){
         double area = (pi*Math.pow(radio, 2));
